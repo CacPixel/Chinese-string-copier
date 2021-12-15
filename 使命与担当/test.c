@@ -9,7 +9,7 @@ int main()
 	FILE* fp2;
 	char character[5048] = { 0 };
 	char main_note[5048];
-	int length = 0; 
+	int length = 0;
 	fp1 = fopen("使命与担当.txt", "r");
 	fp2 = fopen("学习笔记.txt", "w");
 	setlocale(LC_ALL, "zh-CN");
